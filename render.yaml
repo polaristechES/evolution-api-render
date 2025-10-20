@@ -11,6 +11,8 @@ services:
         generateValue: true
       - key: SERVER_URL
         value: https://evolution-api.onrender.com
+      - key: DATABASE_ENABLED
+        value: false
       - key: LOG_LEVEL
         value: ERROR,WARN,DEBUG,INFO
       - key: LOG_COLOR
