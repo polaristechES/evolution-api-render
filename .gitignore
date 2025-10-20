@@ -1,0 +1,23 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Evolution API data
+store/
+instances/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
