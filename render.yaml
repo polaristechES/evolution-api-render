@@ -2,7 +2,7 @@ services:
   - type: web
     name: evolution-api
     runtime: docker
-    region: frankfurt
+    region: ohio
     plan: starter
     branch: main
     dockerfilePath: ./Dockerfile
